@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <!--this is the structure of a comment block in html files 
+        everything in this structure is NOT considered part of any
+        content of your web page
+    
+        Most tag elements in html are done in pair
+        These are called opening and closing pairs
+        The opening tag indicates the element being request
+        The closing tag indicates the element is complete
+        The closing tag has the same name as the opening tag PLUS
+        a slash (/) preceeding the name
+
+        Normallly you will specify the language of the code on the webpage
+        use the language element parameter to specify your coding language
+    -->
+
+    <head>
+        <!-- this is an element where you can code supports the 
+            browser to use in interpreting the web page.
+            the items within this elementare NOT considered content.-->
+            <title>Basic Html Image</title>
+
+            <!-- universal type ser which covers almost all the characters
+                 and symbols in the world
+                    https://www.w3schools.com/tags/tags-meta.asp
+                -->
+            <meta charset="utf-8">
+
+            <!-- there are several other meta tags that can be replace in your
+                 head area.
+                One of these allows you to specify an author of the page
+                -->
+            <meta name="author" content="Rick Pangilnan">
+    </head>
+    <body>
+        <!-- this area is used to place your browser page content-->
+        <!-- title heading tags
+                h1-h6 title tags major-minor-->
+        <h1>Basic Html Tags</h1>   
+        <h3>Paragraph tag</h3>       
+        <!-- this is the coding block for your context in a paragraph tag
+             a paragraph tag belongs to the "block" group of tags
+             "block" group of tags palces your content on a new line-->
+             <p>
+                The paragraph tag is a block tag. A block tag begins a new line in your displayed we page on the browser. The browser does NOT display your content in the physical syle of how you have entered your code in your html file.
+             </p>
+             <p> This is my second paragraph on the displayed browser page. it will start a 
+                 new line
+             </p>
+            <!-- if you wish to use a component of a reserved tags (or the 
+                 whole tag) you would be in trouble using the tag
+                 instead: you can use special character strings to
+                 Represent components of the tag such as the < (&lt) and
+                 the > (&gt) symbols-->
+             <h3>List tags: &lt;ol&gt; and &lt;ul&gt;</h3>
+             <!-- block tag
+                  we can create an ordered list (numbered) using <ol>
+                  we can create unordered list (bulleted) using <ul>
+                  items in the list are indicated using the <li>
+                        -->
+             <ol>        
+                 <li>Add extension Live Server for Go Live excecution for VSC</li>
+                 <li>Close and reopen VSC</li>
+                 <li>look at the bottom right corner on the blue status line for</li>
+                 <li>this will run your page from VSC</li>
+                 <li>Alter your page and save the file (ctrl + s), your
+                     browser will automatically be updated
+                 </li>
+             </ol> 
+             <ul>
+                 <li>this is an unodered list</li>
+                 <li>default display is a bulleted list</li>
+                 <li>we will see later how to remove these bullets</li>
+             </ul> 
+
+             <h3>Anchor tag</h3>
+             <!-- this is an anchor tag and is incorrectly often
+                       referred to as the link tag
+                  One should NOT used the link tag because there is 
+                       actually a <link> tag used in the <head> section
+                  tis tag can take you to a different location whether it
+                       be a different website, different page in the current
+                       website, or a different position on the current page.
+
+                  parameters:
+                   href: points to the desired location
+                   target: indicates the browser
+                           default is same display page
+                           _blank will open a new browser tab (page)     
+                    -->
+                  <a href="https://www.nait.ca" taget="_blank">go to NAIT</a>
+
+                  <h3>Image tag</h3>
+                  
+                  <img src="img/html-logo.png" alt="html-logo"
+                      title="a html logo image">     
+    </body>
+</html>
