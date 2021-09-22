@@ -1,6 +1,6 @@
-# Starter Workbook
+# Starter Lab
 
-## Owner student name
+## Rick Pangilinan
 
-This repository is for tracking proactice in Nait's COMP1017 Web Design Fundamentals. This repository contains demonstrations from the course and my practice. Material in this repository is NOT for marks.
+This repository is for tracking lab in Nait's COMP1017 Web Design Fundamentals. This private repository contains source code for labs. Material in this repository IS for marks.
 
