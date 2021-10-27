@@ -1,0 +1,54 @@
+h1 {
+    color: red;
+}
+
+p {
+    background-color: silver;
+    font-family: Calibri;
+}
+
+/* multiple element (tag) selectors */
+h2, h3, h4, h5, h6{
+    color:green;
+    background-color: #f4f4f4;
+    border: 3px solid black;
+}
+
+
+       
+   
+/*decentant selectors
+  element element element ...*/
+  section aside p{
+      background-color: azure;
+      font-family:fantasy;
+      font-weight: bold;
+      font-style: italic;
+      font-size: large;
+  }
+
+  /*child combinations
+  parent -child*/
+   section p{
+       font-size:xx-small;
+   }
+
+   /*class selector
+   syntax for naming is .user-name{ rules}
+   you are NOT using element names 
+   classes can be attached to any element
+   classes are indipendent of the element on thml page class="user-name"
+   */
+.box-text{
+    border-top:10px solid blue;
+    background-color: chartreuse;
+        
+    }
+
+    .color-yellow{
+        color: yellow
+    }
+
+   /*id selector
+   similar to a class selector BUT is suppose to be use only once on the page where as a class may be use multiple times syntax #user-name{rules} on html page id="username"
+   */
