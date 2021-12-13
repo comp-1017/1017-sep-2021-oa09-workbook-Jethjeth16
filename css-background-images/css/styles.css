@@ -1,0 +1,29 @@
+body {
+	background-color: white;
+}
+ 
+.container {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+.hidden {
+	display: none;
+}
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-position
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-image*/
+
+/* by default any image is repeated across the display area*/
+
+.page-header {
+	background: url(../img/header-background.png);
+
+	
+}
+
